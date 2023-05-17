@@ -1,0 +1,24 @@
+body{
+    display: inline;
+    width: 100%;
+}
+div{
+    width: 100%;
+}
+img#web{
+    width: 100%;
+    border: 20px;
+    padding: 20px;
+    background-color: black;
+}
+img#thi{
+    width: 20%;
+    display: inline;
+    border-radius: 50%;
+    padding: 20px;
+    background: darkgray;
+    margin: 5%;
+}
+body{
+    background-color: grey;
+}
