@@ -128,7 +128,9 @@ h2 {
 
 /* Small image inside article */
 .hero article img {
-    width: 120px;
+    float: right;
+    width: 125px;
+    margin-left: 15px;
     border-radius: 8px;
 }
 
