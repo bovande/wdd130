@@ -41,12 +41,15 @@ footer {
    HEADER / NAVBAR
 ========================= */
 header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
     background-color: var(--primary-color);
-    color: white;
+    padding: 15px;
 }
 
 header img {
-    width: 90px;
+    width: 100px;
 }
 
 nav {
