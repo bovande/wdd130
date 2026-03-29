@@ -42,11 +42,7 @@ footer {
 ========================= */
 header {
     background-color: var(--primary-color);
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    padding: 12px 20px;
-    border-radius: 0 0 10px 10px;
+    color: white;
 }
 
 header img {
@@ -60,12 +56,8 @@ nav {
 }
 
 nav a {
-    color: var(--accent2-color);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 8px 12px;
-    transition: 0.3s;
-    border-radius: 6px;
+    color: white;
+    /* instead of accent2 */
 }
 
 nav a:hover {
