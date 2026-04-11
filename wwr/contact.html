@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bovandé FLEINDE">
     <!-- Meta Information -->
     <meta name="description"
       content="Contact White Water Rafting Company for reservations, questions, or suggestions. Find our address, phone number, email, and location map.">
@@ -52,11 +53,25 @@
                 <input type="email" id="email" name="email" required>
 
                 <p>Message Purpose</p>
-                <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation
-                    Question</label>
-                <label><input type="radio" name="purpose" value="suggestion"> Website
-                    Suggestion</label>
+                <label for="general">
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
+
+                <label for="reservation">
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
+
+                <label for="suggestion">
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
+
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message"></textarea>

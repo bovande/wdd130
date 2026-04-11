@@ -46,6 +46,7 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     padding: 15px;
+    color: white;
 }
 
 header img {
